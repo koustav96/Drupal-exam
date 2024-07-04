@@ -1,0 +1,22 @@
+uuid: 5bd86d4f-8af9-4659-b155-cb9a7a070a9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.standard_banner
+    - field.storage.block_content.sb_banner_g_headline
+  module:
+    - text
+id: block_content.standard_banner.sb_banner_g_headline
+field_name: sb_banner_g_headline
+entity_type: block_content
+bundle: standard_banner
+label: 'Banner G headline'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

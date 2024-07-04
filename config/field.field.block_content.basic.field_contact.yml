@@ -1,0 +1,25 @@
+uuid: 3e1eabe9-5505-45e7-8d8f-3634d295f51c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_contact
+  module:
+    - webform
+id: block_content.basic.field_contact
+field_name: field_contact
+entity_type: block_content
+bundle: basic
+label: Contact
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

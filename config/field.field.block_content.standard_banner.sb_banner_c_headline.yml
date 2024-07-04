@@ -1,0 +1,22 @@
+uuid: 8b194b18-f553-42ea-8df5-36b6b5a2fbd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.standard_banner
+    - field.storage.block_content.sb_banner_c_headline
+  module:
+    - text
+id: block_content.standard_banner.sb_banner_c_headline
+field_name: sb_banner_c_headline
+entity_type: block_content
+bundle: standard_banner
+label: 'Banner C headline'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

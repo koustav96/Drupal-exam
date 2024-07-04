@@ -1,0 +1,15 @@
+uuid: 6c062f86-8f83-4db7-9162-e8b30319d2a2
+langcode: en
+status: true
+dependencies: {  }
+name: custom_image_type
+label: 'Custom Image Type'
+effects:
+  ecfe2c1f-b761-488f-b687-263246fd9b55:
+    uuid: ecfe2c1f-b761-488f-b687-263246fd9b55
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 97
+      anchor: center-center

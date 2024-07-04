@@ -1,0 +1,30 @@
+uuid: ff86e61a-911e-4253-ac1f-2f734eb214d2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:standard_banner:083369d1-60fe-414d-8fbe-f499825c623b'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: standard_banner_block_7
+theme: olivero
+region: content_above
+weight: -12
+provider: block_content
+plugin: 'block_content:083369d1-60fe-414d-8fbe-f499825c623b'
+settings:
+  id: 'block_content:083369d1-60fe-414d-8fbe-f499825c623b'
+  label: 'Standard Banner: BAN'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us
