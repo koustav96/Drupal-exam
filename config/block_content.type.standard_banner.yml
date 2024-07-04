@@ -1,0 +1,13 @@
+uuid: c4fea3cc-f636-42c1-9d5b-32d256562080
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - standard_banner
+_core:
+  default_config_hash: wYVbXRtNSp1-cEr3qfnGYH8A5SKrcOhvAdE74zkmcDw
+id: standard_banner
+label: 'Standard Banner block type'
+revision: null
+description: 'The block type used to create Standard Banner blocks.'

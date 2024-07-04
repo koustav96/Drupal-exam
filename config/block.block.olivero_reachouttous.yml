@@ -1,0 +1,25 @@
+uuid: 36048e2f-6d4a-415f-9949-5a6334cf0556
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:a3e6be80-a432-42e2-ac1f-65042fb37b00'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_reachouttous
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:a3e6be80-a432-42e2-ac1f-65042fb37b00'
+settings:
+  id: 'block_content:a3e6be80-a432-42e2-ac1f-65042fb37b00'
+  label: 'Reach Out to Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

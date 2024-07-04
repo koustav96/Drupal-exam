@@ -1,0 +1,25 @@
+uuid: 4bd76998-bb1c-445a-81cb-0fd9b6619447
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:50382e22-fa2a-473f-8a54-55960848ec3c'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_configuredbykoustavwith
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:50382e22-fa2a-473f-8a54-55960848ec3c'
+settings:
+  id: 'block_content:50382e22-fa2a-473f-8a54-55960848ec3c'
+  label: 'Configured by Koustav with ❤️'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
